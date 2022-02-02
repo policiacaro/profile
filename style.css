@@ -1,0 +1,97 @@
+
+body {
+  line-height: 1.2;
+  font-family: 'Open Sans Condensed', sans-serif;
+  font-size: 45px;
+  color: #FFE8D1;
+  background-color: #715547;
+  background: -webkit-linear-gradient(top left, #715647, #000000);
+  background: -moz-linear-gradient(top left, #715647, #000000);
+  background: linear-gradient(to bottom right, #715647, #000000);
+}
+
+div {
+
+}
+
+h1, h2 {
+  font-family: 'Supermercado One', cursive;
+  font-size: 33px;
+  line-height: .7 ;
+  color: #EBEBEB;
+  text-align: center;
+}
+h1 {
+  font-size: 38px;
+}
+
+a {
+  color: #678D58;
+  text-decoration-line: none;
+}
+
+a:hover {
+  color: #2F195F;
+}
+
+p {
+  text-align: center;
+}
+
+#btn {
+  border: 1px solid #FFFFFF;
+  border-radius: 5px;
+  background-color: #FFE8D1;
+  width: 30%;
+  margin: 0 auto;
+  font-weight: 700;
+  text-align: center;
+}
+
+.card {
+  background-color: rgb(50, 50, 50);
+  border: 1px solid rgb(20, 20, 20);
+  border-radius: 20px;
+  padding: 40px;
+  text-align: center;
+  margin: 24px 0;
+  box-shadow: 6px 6px 20px rgba(0, 0, 0, 30%);
+}
+.container {
+  width: 900px;
+  margin: 0 auto;
+}
+
+.img-circle {
+  border-radius: 50%;
+  object-fit: cover;
+  object-position: 50% 15%;
+}
+
+ul.list-inline {
+  list-style: none;
+  padding: 0;
+}
+
+ul.list-inline li {
+  display: inline;
+  margin: 0 50px;
+}
+
+@media (max-width: 960px){
+  .container{
+    width: 800px;
+  }
+}
+
+@media (max-width: 720px){
+  .container{
+    width: 550px;
+  }
+}
+
+@media (max-width: 540px){
+  .container{
+    width: 400px;
+  }
+}
