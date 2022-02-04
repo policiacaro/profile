@@ -5,9 +5,9 @@ body {
   font-size: 45px;
   color: #FFE8D1;
   background-color: #715547;
-  background: -webkit-linear-gradient(top left, #715647, #000000);
-  background: -moz-linear-gradient(top left, #715647, #000000);
-  background: linear-gradient(to bottom right, #715647, #000000);
+  background: -webkit-linear-gradient(top left, #715647, #FFE8D1);
+  background: -moz-linear-gradient(top left, #715647, #FFE8D1);
+  background: linear-gradient(to bottom right, #715647, #FFE8D1);
 }
 
 div {
@@ -41,7 +41,7 @@ p {
 #btn {
   border: 1px solid #FFFFFF;
   border-radius: 5px;
-  background-color: #FFE8D1;
+  background-color: #EBEBEB;
   width: 30%;
   margin: 0 auto;
   font-weight: 700;
@@ -50,12 +50,12 @@ p {
 
 .card {
   background-color: rgb(50, 50, 50);
-  border: 1px solid rgb(20, 20, 20);
+  border: 2px solid rgb(20, 20, 20);
   border-radius: 20px;
-  padding: 40px;
+  padding: 30px;
   text-align: center;
-  margin: 24px 0;
-  box-shadow: 6px 6px 20px rgba(0, 0, 0, 30%);
+  margin: 45px 0;
+  box-shadow: 6px 6px 20px rgba(0, 0, 0, 50%);
 }
 .container {
   width: 900px;
@@ -64,6 +64,7 @@ p {
 
 .img-circle {
   border-radius: 50%;
+  border: 1px solid rgb(103, 141, 88);
   object-fit: cover;
   object-position: 50% 15%;
 }
